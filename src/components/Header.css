@@ -1,0 +1,93 @@
+.header {
+    position: fixed; /* Navbar fixed at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between; /* Aligns the logo and nav links with space between */
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .logo-nav-container {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Space between logo and nav links */
+  }
+  
+  .logo {
+    font-size: 1.3rem;
+    color: #FF5A5F;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between each nav link */
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #FF5A5F;
+    transition: color 0.4s;
+  }
+  
+  .nav-button:hover {
+    color: #D44446;
+
+  }
+  
+  .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .login-button, .register-button {
+    border: none;
+    background-color: #FF5A5F;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+  }
+  
+  .login-button:hover, .register-button:hover {
+    background-color: #D44446;
+  }
+  
+  .globe-icon {
+    font-size: 1rem;
+  }
+  
+  .about-us {
+    color: #555;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.4s;
+  }
+  
+  .about-us:hover {
+    color: #000;
+  }
+  
+  /* Ensures the search box container appears below the fixed navbar */
+  .search-container {
+    margin-top: 70px; /* Adjust this margin based on the height of your navbar */
+    padding: 20px 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  

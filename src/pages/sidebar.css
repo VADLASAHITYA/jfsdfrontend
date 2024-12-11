@@ -1,0 +1,77 @@
+/* src/pages/Sidebar.css */
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 10%;
+  height: 98vh;
+  background-color: #333;
+  color: white;
+  padding-top: 20px;
+  position: fixed; /* Fixes sidebar on the left side */
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.sidebar h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  padding: 7px;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #444;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+.main-content {
+  margin-left: 10%;
+  padding: 20px;
+ /* background-image: url('https://imgs.search.brave.com/lXwPYgb1iuT7Cu_NJPB9KdpIhOJwZ6kMdh_l1b5hSYs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by90cmF2ZWwtYWNj/ZXNzb3JpZXMtYmx1/ZS1rbml0dGVkLWJh/Y2tncm91bmQtdHJh/dmVsLWNvbmNlcHQt/dG9wLXZpZXdfMjIy/MS0yOC5qcGc_c2Vt/dD1haXNfaHlicmlk');*/
+  background-size: cover; /* Ensures the background covers the main content area */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff; /* Fallback background color */
+  min-height: 100vh;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.main-content h3 {
+  font-size: 28px;
+}
+
+.main-content h2 {
+  font-size: 24px;
+}
+
+.main-content p {
+  font-size: 18px;
+} 
